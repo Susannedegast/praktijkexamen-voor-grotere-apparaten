@@ -1,0 +1,164 @@
+ /*for large display*/
+@media only screen and (min-width:768PX){
+  [class*="col-"] {
+  width:100%;
+  }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+img{
+padding-left: 5%;
+}
+
+h3{
+padding-left: 5%;
+}
+
+h4{
+padding-left: 5%;
+}
+
+h5{
+padding-left: 5%;
+}
+
+hr{
+margin-left: 5%;
+width:85%;
+border-style: double;
+}
+
+p{
+  width: 80%;
+  text-align: justify;
+  padding-left: 5%;
+}
+
+   
+.welkom{
+  color:#CC6600;
+}
+
+.hannah{
+  display: block;
+  float: right;
+  margin-left: 5px;
+  padding-left: 5%;
+}
+
+.jesse{
+  float: left;
+  margin-right: 5px;
+  padding-left: 5%;
+}
+
+iframe{
+padding-left: 5%;
+}
+
+.col-1{
+  width: 100%;
+  background-color: #CC6600;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-color: #333;
+  }
+
+
+
+    .col-2{
+    width: 100%;
+    text-align: center;
+    background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    }
+
+    .col-3{
+    height: 1100px;
+    float: left;
+    width: 25%;
+    background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    }
+    
+    .col-9{
+    height: 1100px;
+    float: right;
+    width: 75%;
+    background-color:#FFFAFA;
+    color: black;
+    }
+    
+
+    .col-12{
+    padding-left: 25%;
+    clear: left;
+    width: 100%;
+    background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-color: #333;
+    }
+    
+
+    * {
+      padding: 0;
+      margin: 0;
+      font-family:trebuchet , arial,sans-serif;
+     }
+      
+     .menu {
+      margin: 5px;
+      padding: 5px;
+     }
+      
+     
+     .menu ul li{
+      display: inline-block;
+      padding:5px;
+     }
+      
+     .menu ul li a, a:link, a:visited, a:active{
+      color: white;
+      text-decoration: none;
+     }
+      
+     .menu ul li a:hover {
+      background-color: #333;
+      text-decoration: underline;
+      color:black;
+     }
+
+
+     input[type="text"],[type="email"],textarea,button,select{
+      display: block;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      width:70%;
+      box-sizing: border-box;
+      }
+
+      textarea{
+      height: 200px;
+      }
+     
